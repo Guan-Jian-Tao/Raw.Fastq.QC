@@ -17,8 +17,8 @@
 >perl T0_Q30.pl -h -h
 >
 >Usage:
-
->  Run by typing: perl T0_Q30.pl -fqpath [fastq file path] -logfile [log file (.txt)] -outdir [out directory]
+>
+  Run by typing: perl T0_Q30.pl -fqpath [fastq file path] -logfile [log file (.txt)] -outdir [out directory]
 
     Required params:
         -e|fqpath                                                       [s]     Raw Fastq files path
@@ -29,9 +29,9 @@
 >perl T1_Trimmomatic.Cluster.pl -h
 >
 >Usage:
-
->Run by typing: perl T1_Trimmomatic.Cluster.pl -fqpath [fastq file path] -adapter_path [Trimmomatic adapter file path] -logfile [log file (.txt)] -outdir [out directory]
 >
+  Run by typing: perl T1_Trimmomatic.Cluster.pl -fqpath [fastq file path] -adapter_path [Trimmomatic adapter file path] -logfile [log file (.txt)] -outdir [out directory]
+
     Required params:
         -e|fqpath                                                       [s]     Raw Fastq files path
         -l|logfile                                                      [s]     Log file (.txt)
